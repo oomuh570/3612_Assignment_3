@@ -140,7 +140,6 @@ app.get("/api/paintings-nested/title/:text", (req, res) => {
 
 // Color route
 app.get("/api/paintings-nested/color/:name", (req, res) => {
-  console.log("🎨 COLOR ROUTE HIT! Param:", req.params.name);
   const name = req.params.name.toLowerCase();
 
   const result = paintings.filter(
@@ -153,8 +152,6 @@ app.get("/api/paintings-nested/color/:name", (req, res) => {
       )
   );
 
-  console.log("🎨 Found:", result.length, "paintings");
-
   if (result.length === 0) {
     return res.json({ message: "No data found for your request." });
   }
@@ -162,21 +159,7 @@ app.get("/api/paintings-nested/color/:name", (req, res) => {
   res.json(result);
 });
 
-// ID route
-app.get("/api/paintings-nested/:id", (req, res) => {
-  console.log("🔢 ID ROUTE HIT! Param:", req.params.id);
-  const id = parseInt(req.params.id);
-
-  const painting = paintings.find((p) => p.paintingID === id);
-
-  if (!painting) {
-    return res.json({ message: "No data found for your request." });
-  }
-
-  res.json(painting);
-});
-
 // START SERVER
 app.listen(process.env.PORT || 8080, () => {
-  console.log("Server running on port 8080");
+  console.log("Server running");
 });
