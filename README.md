@@ -15,7 +15,7 @@ API is deployed at:
 
 ---
 
-# 📁 Project Structure
+# Project Structure
 
 ```
 server.js
@@ -30,7 +30,6 @@ README.md
 ---
 
 # PAINTINGS API — Example Test Requests  
-_All endpoints use `/api/paintings-nested` as required._
 
 ### All paintings  
 https://three612-assignment-3.onrender.com/api/paintings-nested
