@@ -7,13 +7,11 @@ All routes match the structure required in the assignment and include example te
 
 ---
 
-# 🚀 Live Deployment
+# Live Deployment
 
-Your API is deployed at:
+API is deployed at:
 
-➡️ **https://three612-assignment-3.onrender.com**
-
-Use this base URL for all test examples.
+**https://three612-assignment-3.onrender.com**
 
 ---
 
@@ -31,53 +29,54 @@ README.md
 
 ---
 
-# 🎨 PAINTINGS API — Example Test Requests
+# PAINTINGS API — Example Test Requests  
+_All endpoints use `/api/paintings-nested` as required._
 
 ### All paintings  
 https://three612-assignment-3.onrender.com/api/paintings-nested
 
 ### Painting by ID (valid)  
-https://three612-assignment-3.onrender.com/api/painting/433
+https://three612-assignment-3.onrender.com/api/paintings-nested/433
 
 ### Painting by ID (invalid)  
-https://three612-assignment-3.onrender.com/api/painting/43374534856
+https://three612-assignment-3.onrender.com/api/paintings-nested/43374534856
 
 ### Paintings by Gallery ID (valid)  
-https://three612-assignment-3.onrender.com/api/painting/gallery/7
+https://three612-assignment-3.onrender.com/api/paintings-nested/gallery/7
 
 ### Paintings by Gallery ID (invalid)  
-https://three612-assignment-3.onrender.com/api/painting/gallery/43374534856
+https://three612-assignment-3.onrender.com/api/paintings-nested/gallery/43374534856
 
 ### Paintings by Artist ID (valid)  
-https://three612-assignment-3.onrender.com/api/painting/artist/106
+https://three612-assignment-3.onrender.com/api/paintings-nested/artist/106
 
 ### Paintings by Artist ID (invalid)  
-https://three612-assignment-3.onrender.com/api/painting/artist/43374534856
+https://three612-assignment-3.onrender.com/api/paintings-nested/artist/43374534856
 
 ### Paintings in Year Range (valid)  
-https://three612-assignment-3.onrender.com/api/painting/year/1850/1900
+https://three612-assignment-3.onrender.com/api/paintings-nested/year/1850/1900
 
 ### Paintings in Year Range (invalid)  
-https://three612-assignment-3.onrender.com/api/painting/year/2200/2400
+https://three612-assignment-3.onrender.com/api/paintings-nested/year/2200/2400
 
 ### Paintings by Title Search (valid)  
-https://three612-assignment-3.onrender.com/api/painting/title/self
+https://three612-assignment-3.onrender.com/api/paintings-nested/title/self
 
 ### Paintings by Title Search (invalid)  
-https://three612-assignment-3.onrender.com/api/painting/title/dfjkghdfkgh
+https://three612-assignment-3.onrender.com/api/paintings-nested/title/dfjkghdfkgh
 
 ### Paintings by Dominant Color (valid)  
-https://three612-assignment-3.onrender.com/api/painting/color/NAPA
+https://three612-assignment-3.onrender.com/api/paintings-nested/color/NAPA
 
 ### Paintings by Dominant Color (valid with space)  
-https://three612-assignment-3.onrender.com/api/painting/color/coffee%20bean
+https://three612-assignment-3.onrender.com/api/paintings-nested/color/coffee%20bean
 
 ### Paintings by Dominant Color (invalid)  
-https://three612-assignment-3.onrender.com/api/painting/color/kcvhvxchbkcj
+https://three612-assignment-3.onrender.com/api/paintings-nested/color/kcvhvxchbkcj
 
 ---
 
-# 🧑‍🎨 ARTISTS API — Example Test Requests
+# ARTISTS API — Example Test Requests
 
 ### All artists  
 https://three612-assignment-3.onrender.com/api/artists
@@ -93,7 +92,7 @@ https://three612-assignment-3.onrender.com/api/artists/sdfjjsdf
 
 ---
 
-# 🏛 GALLERIES API — Example Test Requests
+# GALLERIES API — Example Test Requests
 
 ### All galleries  
 https://three612-assignment-3.onrender.com/api/galleries
@@ -105,6 +104,7 @@ https://three612-assignment-3.onrender.com/api/galleries/france
 https://three612-assignment-3.onrender.com/api/galleries/kcvhvxchbkcj
 
 ---
+
 
 
 
