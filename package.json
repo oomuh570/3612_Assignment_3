@@ -1,0 +1,25 @@
+{
+  "name": "3612_assignment_3",
+  "version": "1.0.0",
+  "description": "This project implements a REST API using Node.js and Express.js to serve data about paintings, artists, and galleries from three JSON datasets. The API supports searching, filtering, and retrieving items by parameters such as ID, title, color, year, and country.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oomuh570/3612_Assignment_3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/oomuh570/3612_Assignment_3/issues"
+  },
+  "homepage": "https://github.com/oomuh570/3612_Assignment_3#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
